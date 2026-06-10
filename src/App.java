@@ -10,11 +10,13 @@ public class App {
      //runQueue();
 
      //runStack();
-
+     System.out.println("=====Ejercisio 1=====");
      Ejercisio1 ejr = new Ejercisio1();
      System.out.println(ejr.inveString("computacion"));
-    
-
+     System.out.println("=====Ejercisio 2=====");
+    Ejercisio2 ejr2 = new Ejercisio2();
+    System.out.println(ejr2.esPalindromo("radar"));
+    System.out.println(ejr2.esPalindromo("computacion"));
     }
 
     private static void runStack() {
